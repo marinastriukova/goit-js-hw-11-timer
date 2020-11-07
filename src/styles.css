@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+#timer-1{
+margin: 50px auto;
+padding: 20px;
+width: 300px;
+background-color: rgb(40, 35, 54);
+text-align: center;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.field{
+display: flex;
+flex-direction: column;
+background-color:  rgb(161, 160, 160);
+color: black;
+margin: 10px;
+}
+
+.label{ 
+font-size: 12px;
+padding: 2px;
+}
+
+.value{
+  font-size: 32px;
+  padding: 7px;
+  background-color: rgb(100, 100, 100);
+}
